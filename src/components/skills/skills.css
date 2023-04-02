@@ -1,0 +1,244 @@
+
+
+.appcontainer{
+  position: absolute;
+    z-index: 10;
+    overflow: auto;
+    border-radius: 5px;
+    border: 1px solid #D1D5DB;
+    background-color: #F3F4F6;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  }
+  
+  .topbar{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  
+  .topdrag {
+      display: flex;
+      flex-grow: 1;
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem;
+      padding-left: 0.5rem;
+      cursor: grab;
+      background-color: #111827;
+      z-index: 10;
+    }
+    
+    .topdrag:hover {
+      cursor: grab;
+    }
+    
+    .topdrag:active {
+      cursor: grabbing;
+    }
+  
+    .backarrowbtn{
+      margin-right: 8px;
+    }
+  
+    .sidebtns{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+    }
+  
+    .minimizebtn {
+      display: flex;
+      align-items: center;
+      background-color: #111827;
+      padding: 9px;
+      font-size: 19px;
+      z-index: 10;
+    }
+    
+    .minimizebtn:hover {
+      background-color: #4B5563;
+    }
+  
+    .maximizebtn {
+      display: flex;
+      align-items: center;
+      background-color: #111827;
+      padding: 11px;
+      font-size: 16px;
+      z-index: 10;
+    }
+    
+    .maximizebtn:hover {
+      background-color: #4B5563;
+    }
+  
+    .closebtn {
+      display: flex;
+      align-items: center;
+      padding: 9px;
+      background-color: #111827;
+      margin-left: 0;
+      z-index: 10;
+      font-size: 19px;
+    }
+    
+    .closebtn:hover {
+      background-color: #e81123;
+    }
+
+
+.skill-chart{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  height: 90%;
+  width: 100%;
+  z-index: 1;
+}
+
+.overflowcontainer{
+  overflow: auto;
+  border: 4px solid white;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top:0px;
+  padding-top: 30px;
+}
+
+.stackcontainer{
+  height: 100%;
+  width: 100%;
+  position: relative;
+  top: 85%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.techstack{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
+
+.barchart{
+  min-height: 90%;
+  min-width: 45%;
+  position: relative;
+  margin-top: 6vh;
+  z-index: 100;
+}
+
+
+.radarchart{
+  min-height: 80%;
+  min-width: 40%;
+  z-index: 1000;
+}
+
+
+.certi{
+  width: 100%;
+  position: absolute;
+}
+
+
+.certificate-section {
+  padding: 50px;
+  text-align: center;
+}
+
+.certificate-header {
+  position: relative;
+  font-size: 36px;
+  top: -30px;
+}
+
+.certificate-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 50px;
+  justify-items: center;
+  align-items: center;
+}
+
+.certificate-card {
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 0px;
+  display: flex;
+  max-width: 300PX;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.certificate-card:hover{
+  box-shadow: 0px 0px 10px #888888, 0px 0px 20px #777777, 0px 0px 24px #666666, 0px 0px 28px #555555, 0px 0px 32px #444444, 0px 0px 36px #333333, 0px 0px 40px #222222;
+}
+
+
+.certificate-image {
+  max-width: 100%;
+  margin-bottom: 0px;
+}
+
+
+
+
+
+@media screen and (max-width: 1200px) {
+  .skill-chart{
+    flex-direction: column;
+    margin-top: 0vh;
+    margin-left: 0vh;
+    height:95vh;
+  }
+
+
+
+
+  .certi .certificate-header{
+    font-size: 5vh;
+  }
+
+  .stackcontainer{
+    top: 95vh;
+  }
+
+  .barchart{
+    min-height:40vh;
+    min-width: 50vw;
+  }
+  
+  
+  .radarchart{
+    min-height: 45vh;
+    min-width: 60vw;
+    
+  }
+}
+
+@media screen and (min-width: 980px) and (max-width:1200px){
+
+}
+
+@media screen and (min-width: 1200px) and (max-width:2300px){
+
+}
+
+

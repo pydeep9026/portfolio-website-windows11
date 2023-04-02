@@ -1,0 +1,58 @@
+.shortcutapps {
+    display: flex;
+    height:85vh;
+    width: 95vw;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: flex-start;
+  }
+  
+  .shortcutapps > * {
+    margin-top: 2rem;
+  }
+
+  .deskshorts{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .shortcutbutton {
+    margin: 0.5em;
+    max-height: 85px;
+    width: 65px;
+    border-radius: 4px;
+    border: none;
+    background-color: transparent;
+    padding: 15px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .shortcutbutton:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  .shortcutbutton > div {
+    position: relative;
+    text-align: center;
+  }
+  
+  .shortcutbutton > div > img {
+    margin: auto;
+    display: block;
+    max-width: 70px;
+    height: auto;
+  }
+  
+  .shortcutbutton > div > p {
+    font-size: 0.75rem;
+    text-align: center !important;
+    margin-top: 10px;
+    color: white;
+  }
+  
+
+  

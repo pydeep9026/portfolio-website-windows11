@@ -1,0 +1,38 @@
+.dcontainer {
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    transition: opacity 300ms ease-in;
+  }
+  
+  .active-window {
+    height: 100vh;
+    width: 100vw;
+    opacity: 1;
+    transition: opacity 300ms ease-in;
+  }
+  
+  .dcontainer.initial {
+    opacity: 0;
+  }
+  
+  .active-window.hidden {
+    opacity: 0;
+  }
+  
+  .dcontainer {
+    opacity: 0;
+  }
+  
+  .dcontainer.initial .active-window {
+    opacity: 0;
+  }
+  
+  .dcontainer:not(.initial) {
+    opacity: 1;
+  }
+  
+  .dcontainer:not(.initial) .active-window {
+    opacity: 1;
+  }
+  

@@ -1,0 +1,8 @@
+*{
+  text-decoration: none;
+}
+
+body {
+  @apply select-none overflow-hidden;
+  position: fixed;
+}

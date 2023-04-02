@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+
+.appcontainer{
+position: absolute;
+  z-index: 10;
+  overflow: auto;
+  border-radius: 5px;
+  border: 1px solid #D1D5DB;
+  background-color: #F3F4F6;
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.topbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.topdrag {
+    display: flex;
+    flex-grow: 1;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0.5rem;
+    cursor: grab;
+    background-color: #111827;
+    z-index: 10;
+  }
+  
+  .topdrag:hover {
+    cursor: grab;
+  }
+  
+  .topdrag:active {
+    cursor: grabbing;
+  }
+
+  .backarrowbtn{
+    margin-right: 8px;
+    background-color: transparent;
+    border: none;
+    color: white;
+  }
+
+  .sidebtns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+
+  .minimizebtn {
+    display: flex;
+    align-items: center;
+    background-color: #111827;
+    padding: 9px;
+    font-size: 19px;
+    z-index: 10;
+  }
+  
+  .minimizebtn:hover {
+    background-color: #4B5563;
+  }
+
+  .maximizebtn {
+    display: flex;
+    align-items: center;
+    background-color: #111827;
+    padding: 11px;
+    font-size: 16px;
+    z-index: 10;
+  }
+  
+  .maximizebtn:hover {
+    background-color: #4B5563;
+  }
+
+  .closebtn {
+    display: flex;
+    align-items: center;
+    padding: 9px;
+    background-color: #111827;
+    margin-left: 0;
+    z-index: 10;
+    font-size: 19px;
+  }
+  
+  .closebtn:hover {
+    background-color: #e81123;
+  }
+  
+
+  .overflowcontainer{
+    overflow-x: hidden !important;
+  }
+
+
+
+
+.home {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    }
+    
+    .home__text-wrapper {
+    display: flex;
+    justify-content: center;
+    }
+    
+    .home__text-wrapper h1 {
+    color: #ffdd40;
+    margin: 10px;
+    font-weight: 500;
+    font-size: 4rem;
+    line-height: 5rem;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    white-space: nowrap;
+    font-family: 'Inconsolata', monospace;
+    animation: typingEffectAnimation 2.5s steps(20, end);
+    }
+    
+    .home__contact-me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    flex-direction: column;
+    gap: 20px;
+    }
+    
+    .home button {
+    cursor: pointer;
+    padding: 9px 18px;
+    font-size: 1.2rem;
+    width: 190px;
+    background: transparent;
+    z-index: 1000;
+    color: #ffdd40;
+    border: 1px solid #ffdd40;
+    border-radius: 4px;
+    font-weight: 450;
+    font-family: 'Inconsolata', monospace;
+    }
+
+    .home__contact-me button a{
+      color: #ffdd40 ;
+    }
+    
+    .home__contact-me button:hover {
+    background: #ffdd40;
+    color: #000000;
+    }
+
+    .home__contact-me button:hover a{
+      color: #000000;
+      height: 100%;
+      width: 100%;
+    }
+
+    .home .linkedin{
+        font-size: 24px;
+        color:#ffdd40;
+        z-index: 3000;
+        cursor: pointer;
+    }
+
+
+    .timeline{
+        position: relative;
+    }
+
+    .education{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        flex-direction: column;
+        margin-top: 620px;
+        gap: 20px;
+        font-size: 36px;
+        font-weight: 600;
+        color: #ffdd40;
+    }
+
+    
+    @media only screen and (max-width: 550px) {
+    .home__text-wrapper h1 {
+    font-size: 3rem;
+    line-height: 4rem;
+    }
+    }
+    
+    @media only screen and (min-width: 551px) and (max-width: 768px) {
+    .home__text-wrapper h1 {
+    font-size: 4rem;
+    line-height: 4rem;
+    }
+    }
+    
+    @media only screen and (min-width: 769px) and (max-width: 990px) {
+    .home__text-wrapper h1 {
+    font-size: 3rem;
+    line-height: 4rem;
+    }
+}
+    @media only screen and (min-width: 990px) and (max-width: 1900px) {
+        .home__text-wrapper h1 {
+        font-size: 3rem;
+        line-height: 3rem;
+        }
+
+    }
+
+    @media only screen and  (max-width: 500px) {
+        .home__text-wrapper h1 {
+        font-size: 1.5rem;
+        line-height: 2rem;
+        }
+
+    }
+    
+    @keyframes typingEffectAnimation {
+    from {
+    width: 0;
+    }
+    
+    to {
+    width: 100%;
+    }
+    }
