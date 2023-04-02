@@ -28,82 +28,51 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+Welcome to my personal portfolio website. As a web dev enthusiast and a creative professional, I have designed this platform to showcase my works and accomplishments in a unique and modern way.
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+With this website, I have combined the familiar elements of the Windows 11 operating system with my own creativity and expertise to create a dynamic and interactive portfolio website that reflects my personal brand and style.
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
-
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
-
-Use the `BLANK_README.md` to get started.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+On my website, you can explore my various projects, works, and achievements in a sleek and sophisticated environment. I have organized my portfolio into different categories, such as social handles, projects, and development, to showcase my skills and expertise.
 
 
 
 ### Built With
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+* ![React][React.js]
+* ![Redux][Redux.js]
+* ![CSS][CSS.js]
 
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+[React.js]: https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=React&logoColor=white
+[Redux.js]: https://img.shields.io/badge/-Redux-764ABC?style=flat-square&logo=Redux&logoColor=white
+[CSS.js]: https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=CSS3&logoColor=white
 
 
 
-<!-- GETTING STARTED -->
-## Getting Started
-
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
-
-### Installation
-
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<br/>
 
 
 
-<!-- USAGE EXAMPLES -->
-## Usage
+## credits
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+*  **icons8**: almost all the icons in this projects have been taken from icons8 website.
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+<br/>
+
+* **About header**: The header for the About component was not created by me, but rather modified. The original header can be found in [Sangam Mukherjee's portfolio website](https://github.com/sangammukherjee).
+
+<br/>
+
+* **Skill icons**: The icons section used in the Skill component's icon section was not created by me, but rather the original code was converted from TypeScript to JavaScript by me. Unfortunately, I cannot find the link to the original code anymore.
+
+<br/>
+
+* **npmjs**: since i have extensively used libraries from node package manager. i am thankfull to all the creators and publishers there.
+
+### Note: This list of credits may not be exhaustive and some sources could have been left out. If you believe there are any missing credits, please let me know and I will be happy to add them.
+
+
+
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
