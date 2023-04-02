@@ -54,7 +54,7 @@ On my website, you can explore my various projects, works, and achievements in a
 
 ## credits
 
-*  **icons8**: almost all the icons in this projects have been taken from ][icons8 website](https://icons8.com/) .
+*  **icons8**: almost all the icons in this projects have been taken from [icons8 website](https://icons8.com/) .
 
 <br/>
 
