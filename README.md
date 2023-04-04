@@ -62,7 +62,7 @@ On my website, you can explore my various projects, works, and achievements in a
 
 <br/>
 
-* **Skill icons**: The icons section used in the Skill component's icon section was not created by me, but rather the original code was converted from TypeScript to JavaScript by me. Unfortunately, I cannot find the link to the original code anymore.
+* **Skill icons**: The icons section used in the Skill component was not created by me, but rather the original code was converted from TypeScript to JavaScript by me. Unfortunately, I cannot find the link to the original code anymore.
 
 <br/>
 
