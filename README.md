@@ -25,7 +25,7 @@
 
 
 
-<!-- ABOUT THE PROJECT -->
+<!-- ABOUT THE PROJECT --> 
 ## About The Project
 
 Welcome to my personal portfolio website. As a web dev enthusiast and a creative professional, I have designed this platform to showcase my works and accomplishments in a unique and modern way.
