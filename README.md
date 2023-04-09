@@ -19,7 +19,7 @@
     ·
     <a href="https://form.typeform.com/to/J29jkJOT">Request Feature</a>
   </p>
-</div>
+</div> 
 
 
 
